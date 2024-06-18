@@ -1,0 +1,8 @@
+{
+    "login": {
+        "title": "Login",
+        "Information": "Don't you have an account?",
+        "loginBtn": "Login",
+        "gotoRegisterBtn": "Register"
+      }
+}

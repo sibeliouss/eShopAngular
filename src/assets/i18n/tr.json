@@ -1,0 +1,8 @@
+{
+    "login" : {
+    "title": "Giriş",
+    "Information": "Hesabınız yok mu?",
+    "loginBtn": "Giriş Yap",
+    "gotoRegisterBtn": "Kayıt Ol"
+     }
+}

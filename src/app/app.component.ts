@@ -1,13 +1,16 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { LoginComponent } from "./core/login/login.component";
+import { LayoutsComponent } from "./shared/layouts/layouts.component";
+
+
+
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss',
-    imports: [RouterOutlet]
+    imports: [RouterOutlet, LayoutsComponent]
 })
 export class AppComponent {
   title = 'eShopAngular';

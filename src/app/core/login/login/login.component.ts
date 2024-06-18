@@ -1,23 +1,28 @@
 import { Component } from '@angular/core';
-import { LoginRequest } from '../models/LoginRequest';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { LoginRequest } from '../../models/LoginRequest';
+import { LoginService } from '../../services/login.service';
 import { FormBuilder, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
-import { LoginService } from '../services/login.service';
-import { LoginResponse } from '../models/AccessToken';
+import { LoginResponse } from '../../models/AccessToken';
 import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [CommonModule,FormsModule,ReactiveFormsModule],
+  imports: [TranslateModule, CommonModule,FormsModule,ReactiveFormsModule],
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss'
 })
 export class LoginComponent {
 
   log!:LoginRequest;
-  constructor(private formBuilder:FormBuilder,
-    private loginService:LoginService
-  ){}
+
+  constructor( private formBuilder:FormBuilder,
+    private loginService:LoginService) {
+   
+  }
+
+  
 
   ngOnInit(): void {
     

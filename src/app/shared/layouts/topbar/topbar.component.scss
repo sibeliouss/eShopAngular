@@ -1,0 +1,47 @@
+*{
+   
+    background-color: rgb(245, 245, 224);
+}
+.topbar{
+    padding: 10px;
+    .nav-item{
+        font-size:14px;
+        font-weight: 600;
+    }
+    .yazi{
+        font-style: oblique;
+    }
+}
+
+.topbarright {
+    display: flex; 
+    align-items: center; 
+    padding: 0;
+    margin: 0;
+    .nav-item {
+        margin: 0 10px; 
+        display: flex; 
+        align-items: center; 
+       
+       
+       
+            .btn {
+                padding: 0; 
+                margin:0 3px; 
+               
+           
+                
+                img {
+                   
+              
+                }
+                
+            
+
+        }
+    }
+}
+
+
+
+// background-color: rgb(245, 239, 239);
