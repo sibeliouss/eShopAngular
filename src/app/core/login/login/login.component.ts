@@ -5,11 +5,12 @@ import { LoginService } from '../../services/login.service';
 import { FormBuilder, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { LoginResponse } from '../../models/AccessToken';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [TranslateModule, CommonModule,FormsModule,ReactiveFormsModule],
+  imports: [TranslateModule, CommonModule,FormsModule,ReactiveFormsModule, RouterModule],
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss'
 })

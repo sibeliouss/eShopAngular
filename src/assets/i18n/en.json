@@ -1,8 +1,19 @@
 {
     "login": {
-        "title": "Login",
+        "title": "Log In",
         "Information": "Don't you have an account?",
-        "loginBtn": "Login",
-        "gotoRegisterBtn": "Register"
-      }
+        "loginBtn": "Log In",
+        "gotoRegisterBtn": "Sign Up"
+      },
+      "register":{
+        "title": "Sign Up",
+        "name":"Name:",
+        "lastName":"Lastname:",
+        "email":"Email:",
+        "password":"Password:",
+        "registerBtn":"Sign Up",
+        "goToLoginBtn":"If you have a account you can login here.",
+        "loginBtn":"Log In"
+
+     }
 }

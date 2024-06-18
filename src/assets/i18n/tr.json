@@ -4,5 +4,17 @@
     "Information": "Hesabınız yok mu?",
     "loginBtn": "Giriş Yap",
     "gotoRegisterBtn": "Kayıt Ol"
+     },
+
+     "register":{
+        "title": "Kayıt",
+        "name":"Ad:",
+        "lastName":"Soyad:",
+        "email":"Email:",
+        "password":"Şifre:",
+        "registerBtn":"Kayıt Ol",
+        "goToLoginBtn":"Zaten hesabınız varsa giriş yapın.",
+        "loginBtn":"Giriş Yap"
+
      }
 }
