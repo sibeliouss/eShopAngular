@@ -5,10 +5,13 @@
     <input placeholder="Lütfen geçerli bir e-mail giriniz" id="email" class="inputField" formControlName="email" type="email" required="email"> 
     </div>
     
-    <div class="inputContainer">
+    <div class="inputContainer" id="passwordContainer">
         <i class="bi bi-lock inputIcon"></i>
-     
-      <input placeholder="Şifre" id="password" class="inputField" formControlName="password" type="password">
+        <input placeholder="Şifre" id="password" [type]="passwordLoginHidden ? 'password' : 'text'" class="inputField" formControlName="password" type="password">
+        <div class="eye-icon" (click)="SignInPasswordVisibility()">
+          <span *ngIf="passwordLoginHidden" ><i class="bi bi-eye-slash"></i></span>
+          <span *ngIf="!passwordLoginHidden" ><i class="bi bi-eye"></i></span>
+        </div>
     </div>
     
     <button class="mb-4" id="button" type="submit">{{'login.loginBtn' | translate }}</button>

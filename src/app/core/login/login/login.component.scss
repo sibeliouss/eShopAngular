@@ -113,6 +113,19 @@
     }
   }
 
+  #passwordContainer{
+    position: relative;
+   
+
+    .eye-icon {
+    position: absolute;
+    top: 60%;
+    right: 50px; /* veya uygun bir mesafe belirleyin */
+    transform: translateY(-80%);
+    cursor: pointer;
+  }
+  }
+
 }
 
 
