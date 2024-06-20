@@ -4,6 +4,5 @@ export interface Customer {
 	lastName: string;
 	email: string;
 	password: string;
-	phone: string;
 	userId: string;
 }
