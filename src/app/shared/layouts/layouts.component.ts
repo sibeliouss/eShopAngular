@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { TopbarComponent } from "./topbar/topbar.component";
-import { MiddlebarComponent } from "./middlebar/middlebar.component";
+import { MiddlebarComponent } from './middlebar/middlebar.component';
+
 
 
 @Component({
@@ -8,7 +9,7 @@ import { MiddlebarComponent } from "./middlebar/middlebar.component";
     standalone: true,
     templateUrl: './layouts.component.html',
     styleUrl: './layouts.component.scss',
-    imports: [TopbarComponent, MiddlebarComponent]
+    imports: [TopbarComponent,MiddlebarComponent ]
 })
 export class LayoutsComponent {
 
